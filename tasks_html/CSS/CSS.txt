@@ -1,0 +1,4 @@
+CSS - Cascading Style sheets
+Where to write CSS code:-
+1.In the HTML file
+2.Outside the HTML file
