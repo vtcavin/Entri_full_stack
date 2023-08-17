@@ -1,0 +1,12 @@
+Styling?
+
+Inline
+classes,ids
+Elements
+
+Order of specificity used for above is:-
+
+1. Inline Styling
+2. ids
+3. classes
+4. Elements
