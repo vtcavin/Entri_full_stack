@@ -1,0 +1,29 @@
+<!-----Cascading is defined as a when we write style property value in particular tag not like specificity like only single tag 
+then last property value is taken into consideration-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading</title>
+    <style>
+        #cavin{
+            color: chocolate;
+            color: blueviolet;
+            color: palevioletred;
+            background-color: yellow;
+            padding: 30px;
+            text-transform: lowercase;
+            text-align: center;
+            text-decoration: underline;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: darkblue;color:yellow";>Hello world</h1>
+    <h2 id="cavin">Full stack web devlopment</h2>
+</body>
+</html>
