@@ -1,0 +1,17 @@
+onblur is a event when user leaves input field
+
+onchange 
+
+onfocus
+
+onselect
+
+onsubmit
+
+onreset
+
+onkeydown
+
+onkeypress
+
+onkeyup
