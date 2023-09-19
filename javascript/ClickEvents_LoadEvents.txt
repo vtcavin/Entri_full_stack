@@ -1,0 +1,19 @@
+Click Events
+
+1)onClick
+
+2)ondblclick
+
+
+Load Events
+
+1)onload
+
+2)onerror
+
+3)onunload
+
+4)onresize
+
+
+
