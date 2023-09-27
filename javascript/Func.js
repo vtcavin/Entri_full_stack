@@ -1,8 +1,8 @@
-function sum(n1,n2){
+let add=function sum(n1,n2){
     var result=n1+n2;
     return result;
 }
-console.log(sum(5,6));
+console.log(add(5,5));
 
 
 
