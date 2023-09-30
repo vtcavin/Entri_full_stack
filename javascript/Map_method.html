@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Method</title>
+</head>
+<body>
+    <script>
+        var birthyears=[2001,2002,2003,2004]
+        ages=[]
+        
+
+        var ages=birthyears.map(function(ele,index,arr){
+            let age=2023-ele
+            return age;
+        })
+        console.log(birthyears);
+        console.table(ages);
+
+        var ages=birthyears.map(ageFind)
+        function ageFind(ele,index,arr){
+            console.log(arr);
+            console.log(index);
+            let age=2023-ele
+            return age;
+        }
+        console.log(birthyears);
+        console.table(ages);
+
+    </script>
+</body>
+</html>
