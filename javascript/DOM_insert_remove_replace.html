@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div id="web">
+        <p>
+            My name is cavin
+        </p>
+
+        <p id="stack"> 
+            Learning Full stack web devlopment
+        </p>
+    </div>
+
+    <script>
+         var n=document.createElement("p")
+         n.innerText="Completed Btech"
+         console.log(n);
+
+         var p=document.getElementById("web")
+         var last=document.getElementById("stack")
+         console.log(p);
+
+        //  p.insertBefore(n,stack)
+
+        var z=document.getElementById("stack")
+        // stack.remove()
+
+        z.removeChild(stack)
+    </script>
+</body>
+</html>
