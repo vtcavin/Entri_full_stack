@@ -1,0 +1,27 @@
+<!-- Filter method is used to filter elements based on conditions -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Method</title>
+</head>
+<body>
+    <script>
+        var num= [26,52,94,87,65,9]
+
+        var odd= num.filter(function(ele){
+            return ele%2==0
+            
+        })
+        var even= num.map(function(ele){
+            return ele%2==0
+            
+        })
+        console.log(odd);
+        console.log(even);
+    </script>
+   
+</body>
+</html>
