@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Styles</title>
+    <style>
+        #special{
+            color:aqua;
+        }
+        .one{
+            background-color: brown;
+        }
+        .two{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div id="special">
+        <h2> Hello world</h2>
+
+    </div>
+    <div class="one">
+        <h3>Welcome to Javascript</h3>
+
+    </div>
+    <img src="grandi10_logo.jpg" alt="Car name">
+
+    <script>
+        var n=document.getElementById("special")
+        n.style.color="blue"
+        n.style.border="orange 7px solid"
+        n.style.backgroundColor= "yellow"
+        console.log(n.style);
+
+        let x=document.getElementById("special")
+
+        console.log(x.getAttribute("id"));
+
+        let p=document.getElementsByClassName("two")
+
+        console.log(x.getAttribute("class"));
+
+        x.setAttribute("class","one")
+
+        console.log(x.getAttribute("class"));
+
+        x.style.width="300px"
+        x.style.height="400px"
+        console.log(x.getAttribute("src"))
+
+
+
+
+    </script>
+</body>
+</html>
