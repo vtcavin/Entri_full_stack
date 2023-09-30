@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Examples</title>
+</head>
+<body>
+    <div id="cavin">
+        <p>This is first paragraph in division 1</p>
+
+        <p>This is second paragraph in divison 2</p>
+
+    </div>
+
+    <div id="second">
+
+        <p>This is paragrah division 2</p>
+
+        <p>This is second in division 2</p>
+
+
+    </div>
+
+    <script>
+        var n=document.createElement("h4")
+        n.innerText="Third paragraph in division 2"
+        
+
+        var folder=document.getElementById("cavin")
+        
+
+        folder.appendChild(n)
+
+        console.log(folder.innerText);
+        console.log(folder.innerHTML);
+
+        
+
+    </script>
+</body>
+</html>
