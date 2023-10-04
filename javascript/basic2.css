@@ -1,0 +1,19 @@
+p{
+    color: blue;
+    background-color: brown;
+    
+}
+
+h1{
+    color: orange;
+    background-color: green;
+    padding-left: 25px;
+}
+span{
+    color: violet;
+    background-color: pink;
+}
+.cav{
+    color: red;
+    background-color:yellowgreen;
+}
