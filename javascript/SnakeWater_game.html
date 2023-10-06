@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake water Game</title>
+</head>
+<body>
+    <h1>Snake Water Game Starts</h1>
+    <script>
+        let arr=['snake','water','gun'];
+        alert("You are playing snake water and gun game");
+        let round=1;
+        let userGuesses=0;
+        let computerGuesses=0;
+        while(round<=3){
+            
+            let userinput=prompt("Enter your guess");
+            let computerinput=arr[Math.floor(Math.random()*3)];
+            
+            if((userinput=='snake'&&computerinput=='water')||(userinput=='gun'&&computerinput=='snake')||(userinput=='water'&&computerinput=='gun')){
+                userGuesses++;
+            }
+            else{
+                computerGuesses++;
+            }
+            round++;
+        }
+        if(computerGuesses>userGuesses){
+            alert("You Lose the computer score more than you");
+        }
+        else{
+            alert("Win proceed");
+        }
+    
+
+        
+    </script>
+</body>
+</html>
