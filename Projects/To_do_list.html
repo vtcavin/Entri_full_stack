@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+</head>
+<body>
+    <h1>To-do-List</h1>
+    <form>
+        <input type="text" id="task" placeholder="Add Task Here">
+        <button type="button">Add</button>
+    </form>
+    <ul id="tasks"></ul>
+
+    <script>
+        var add=document.getElementById("add-task")
+        var taskInput=document.getElementById("task")
+        var taskList=document.getElementById("tasks")
+
+        add.addEventListener("click",function(){
+            var task=taskInput.value 
+            addTask(task)
+            taskInput.value =""
+
+
+        })
+        function addTask(task){
+            var li=document.createElement("li")
+            li.innerHTML=task
+            taskList.appendChild(li)
+        }
+    </script>
+</body>
+</html>
