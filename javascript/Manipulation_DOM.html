@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Practice</title>
+</head>
+<body>
+   <nav>
+        <li>Cavin</li>
+        <li>Hello</li>
+        <li>Hi</li>
+   </nav> 
+   <table>
+        <td>Hello 1</td>
+        <td>Hello 2</td>
+        <td>Hello 3</td>
+        <td>Hello 4</td>
+   </table>
+
+   <style>
+    *{
+        margin :0;
+        padding: 0;
+    }
+    nav{
+        display:flex;
+        background-color: palevioletred;
+
+    }
+    nav li{
+        list-style: none;
+        padding:0 23px;
+    }
+
+   </style>
+
+   <script>
+    let z=document.getElementsByTagName("nav")[0].firstElementChild.style.color="red";
+    var p=document.getElementsByTagName("nav")[0].lastElementChild.style.color="blue";
+
+Array.from(document.getElementsByTagName("li")).forEach(element => {
+        element.style.background="cyan";
+    })
+   </script>
+</body>
+</html>
