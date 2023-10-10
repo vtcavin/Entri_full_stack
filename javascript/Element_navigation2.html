@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Navigation</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About Me</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <script>
+        const changeBgred=()=>{
+            document.body.firstElementChild.style.background="blue"
+        }
+        let b=document.body
+        console.log("First child of b is",b.firstChild);
+        console.log("First Element child of b is",b.firstElementChild);
+    </script>
+
+    <style>
+        ul{
+            display: flex;
+
+        }
+
+        ul li{
+            list-style: none;
+            margin:0 29px;
+            background: tomato;
+
+        }
+        html,body{
+            height:100%;
+            width:100%;
+            margin:0%;
+            padding:0;
+        }
+    </style>
+</body>
+</html>
