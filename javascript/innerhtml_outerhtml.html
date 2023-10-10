@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner HTML</title>
+</head>
+<body>
+    <span id="first"><b>HI</b> Hey Iam Cavin</span>
+
+    <script>
+        console.log(document.getElementsByTagName("span")[0])
+        console.dir(document.getElementsByTagName("span")[0])
+
+        console.log(document.body.firstChild.nodeName)
+
+        console.log(document.body.firstElementChild.nodeName)
+
+        console.log(first.innerHTML);
+
+        console.log(first.innerHTML = "hey iam cirvin")
+
+        console.log(first.outerHTML="<div>Hello Everyone</div>")
+
+        console.log(document.body.textcontent)
+
+
+    </script>
+</body>
+</html>
